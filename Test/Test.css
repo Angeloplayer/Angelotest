@@ -1,0 +1,23 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+.hidden {visibility: hidden;}
+
+#div {position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+}
+h1{color: blue;}
+button{color: cyan;
+background-color: violet;
+}
+div {background-color: blueviolet;}
+

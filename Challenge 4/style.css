@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora";
+}
+
+body{
+    background-image: url(/dccl--responsive-contact-page/dccl--responsive-contact-page/bg-image.svg);
+    background-size: cover;
+}
+
+div > img {
+    position: relative;
+    left: 72px;
+    top: 16px;
+}
+
+header{
+    margin: auto;
+    padding-top: 64px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    padding-bottom: 16px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+main {
+    background-color: rgb(255, 255, 255, 0.2);
+    width: 55%;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+div {
+    width: 49%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+input, select {
+    width: 99%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+select {
+    font-weight: bold;
+    appearance: none;
+    background: url(/dccl--responsive-contact-page/dccl--responsive-contact-page/Expand_down.svg) no-repeat right center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+}
+ 
+textarea, #mess{
+    width: 99%;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+button{
+    color: #4036A9;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 98%;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
